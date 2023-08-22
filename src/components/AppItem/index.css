@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-item-container {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.name {
+  font-family: Bree Serif;
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    height: 50px;
+    width: 50px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .app-item-container {
+    height: 120px;
+    width: 120px;
+  }
+}
